@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BankListApp</string>
+    <string name="loading_data_from_remote">Loading data</string>
+</resources>
