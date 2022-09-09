@@ -27,10 +27,7 @@ class CustomProgressDialog() : AppCompatDialogFragment() {
             val builder: AlertDialog.Builder = AlertDialog.Builder(it)
             binding = CustomProgressLayoutBinding.inflate(LayoutInflater.from(context))
 
-            val alertDialog = builder
-                .setView(binding.root)
-                .create()
-
+            val alertDialog = builder.setView(binding.root).create()
             alertDialog.setCanceledOnTouchOutside(mIsProgressCancelable)
             alertDialog.show()
             alertDialog

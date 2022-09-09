@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable-v24/bg_crdview.xml" value="0.2361111111111111" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2361111111111111" />
+        <entry key="app/src/main/res/drawable/bg.xml" value="0.2361111111111111" />
         <entry key="app/src/main/res/drawable/crd_view_bg.xml" value="0.30666666666666664" />
         <entry key="app/src/main/res/drawable/top_bar.xml" value="0.17395833333333333" />
         <entry key="app/src/main/res/font/font.xml" value="0.20833333333333334" />
@@ -11,9 +14,11 @@
         <entry key="app/src/main/res/layout/activity_main2.xml" value="0.14375" />
         <entry key="app/src/main/res/layout/activity_splash.xml" value="0.2907692307692308" />
         <entry key="app/src/main/res/layout/custom_progress_layout.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/fragment_detail_bank.xml" value="0.29583333333333334" />
         <entry key="app/src/main/res/layout/fragment_main.xml" value="0.2907692307692308" />
         <entry key="app/src/main/res/layout/fragment_splash.xml" value="0.30512820512820515" />
         <entry key="app/src/main/res/layout/item_bank_list.xml" value="0.2907692307692308" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2361111111111111" />
       </map>
     </option>
   </component>

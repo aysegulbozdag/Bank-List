@@ -8,7 +8,7 @@
         android:id="@+id/splashFragment2"
         android:name="com.example.android.banklistapp.view.SplashFragment"
         android:label="fragment_splash"
-        tools:layout="@layout/fragment_splash" >
+        tools:layout="@layout/fragment_splash">
         <action
             android:id="@+id/action_splashFragment2_to_mainFragment"
             app:destination="@id/mainFragment" />
@@ -17,5 +17,14 @@
         android:id="@+id/mainFragment"
         android:name="com.example.android.banklistapp.view.MainFragment"
         android:label="fragment_main"
-        tools:layout="@layout/fragment_main" />
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_detailBankFragment"
+            app:destination="@id/detailBankFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailBankFragment"
+        android:name="com.example.android.banklistapp.view.DetailBankFragment"
+        android:label="DetailBankFragment"
+        tools:layout="@layout/fragment_detail_bank"/>
 </navigation>
